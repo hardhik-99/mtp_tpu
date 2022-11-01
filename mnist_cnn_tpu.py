@@ -4,6 +4,8 @@ Created on Thu Oct 20 15:09:14 2022
 
 @author: hardh
 """
+mnist_tflite_filename = "mnist.tflite"
+
 def load_tflite_model(modelpath):
     # Load the TFLite model and allocate tensors.
     # Load using CPU
