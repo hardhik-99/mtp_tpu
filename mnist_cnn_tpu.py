@@ -4,6 +4,7 @@ Created on Thu Oct 20 15:09:14 2022
 
 @author: hardh
 """
+import tflite_runtime.interpreter as tflite
 mnist_tflite_filename = "mnist.tflite"
 
 def load_tflite_model(modelpath):
