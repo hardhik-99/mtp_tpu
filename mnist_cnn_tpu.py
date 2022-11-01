@@ -4,6 +4,7 @@ Created on Thu Oct 20 15:09:14 2022
 
 @author: hardh
 """
+from PIL import Image
 import tensorflow as tf
 import numpy as np
 import tflite_runtime.interpreter as tflite
