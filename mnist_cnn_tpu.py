@@ -40,5 +40,5 @@ def tflite_predict(interpreter, data):
 pred = tflite_predict(interpreter, x_test[9])
 print(pred.argmax(1), y_test[9])
 
-show_img(x_test[9])
+Image.show(x_test[9])
 
