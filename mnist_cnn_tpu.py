@@ -37,6 +37,8 @@ def tflite_predict(interpreter, data):
     interpreter.invoke()
     return interpreter.get_tensor(interpreter.get_output_details()[0]['index'])
 
-pred = tflite_predict(interpreter, x_test[9])
-print(pred.argmax(1), y_test[9])
+#pred = tflite_predict(interpreter, x_test[9])
+#print(pred.argmax(1), y_test[9])
+pred = tflite_predict(interpreter, x_test)
+print(pred)
 
