@@ -8,7 +8,7 @@ from PIL import Image
 import tensorflow as tf
 import numpy as np
 import tflite_runtime.interpreter as tflite
-import tqdm
+from tqdm import tqdm
 
 mnist = tf.keras.datasets.mnist
 
